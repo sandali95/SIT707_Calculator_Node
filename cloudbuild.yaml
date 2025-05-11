@@ -15,7 +15,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: [
       'push',
-      'australia-southeast1-docker.pkg.dev/$PROJECT_ID/calculator-app/calculator-appp-node:$COMMIT_SHA'
+      'australia-southeast1-docker.pkg.dev/$PROJECT_ID/calculator-app/calculator-app-node:$COMMIT_SHA'
     ]
 
   - name: 'gcr.io/cloud-builders/gcloud'
